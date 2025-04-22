@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Harga Jasa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+        header {
+            background-color: #1b5e20; /* Hijau lebih gelap yang sama dengan footer */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+        }
+        h1 {
+            color: white ; /* Hijau lebih gelap */
+	}
+	h2 {
+            color: black ; /* Hijau lebih gelap */
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 10px auto;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #1b5e20; /* Hijau lebih gelap yang sama dengan header dan footer */
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .service-table {
+            margin-bottom: 20px;
+        }
+        .link-table {
+            display: inline-block;
+            margin: 5px auto; /* Mengurangi jarak antara tabel dan link */
+        }
+        .link-table th, .link-table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .link-table th {
+            background-color: #1b5e20; /* Hijau lebih gelap */
+            color: white;
+        }
+        .link-table td {
+            background-color: #e9f7e9;
+        }
+        footer {
+            background-color: #1b5e20; /* Hijau lebih gelap */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        a {
+            color: #2196F3; /* Biru untuk link */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Daftar Harga Jasa</h1>
+</header>
+
+<main>
+    <h2>1. Jasa Pembuatan Project Arduino dan IoT</h2>
+    <table class="service-table">
+        <tr>
+            <th>Paket</th>
+            <th>Deskripsi</th>
+            <th>Estimasi Harga</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>Pembuatan proyek sederhana dengan Arduino dan IoT. Termasuk satu sensor dan satu perangkat output.</td>
+            <td>Rp 1.500.000</td>
+        </tr>
+        <tr>
+            <td>Standard</td>
+            <td>Pembuatan proyek dengan lebih dari satu sensor dan perangkat output. Penggunaan modul WiFi/Bluetooth dan integrasi aplikasi dasar.</td>
+            <td>Rp 3.000.000</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>Proyek kompleks dengan berbagai sensor, output, dan integrasi aplikasi mobile/web. Penggunaan protokol komunikasi (MQTT, HTTP) dan fitur tambahan.</td>
+            <td>Rp 5.000.000</td>
+        </tr>
+    </table>
+    <div class="link-table">
+        <table>
+            <tr>
+                <th>Link Deskripsi</th>
+            </tr>
+            <tr>
+                <td><a href="#" target="_blank">Deskripsi Jasa Arduino & IoT</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>2. Jasa Pembuatan Website dan Aplikasi</h2>
+    <table class="service-table">
+        <tr>
+            <th>Paket</th>
+            <th>Deskripsi</th>
+            <th>Estimasi Harga</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>Website statis atau aplikasi sederhana dengan tampilan dasar.</td>
+            <td>Rp 2.000.000</td>
+        </tr>
+        <tr>
+            <td>Standard</td>
+            <td>Website dinamis dengan fitur-fitur seperti form, galeri, atau login. Aplikasi dengan beberapa halaman dan fungsionalitas.</td>
+            <td>Rp 4.000.000</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>Website profesional atau aplikasi kompleks dengan fitur lengkap, seperti e-commerce, database, dan integrasi API.</td>
+            <td>Rp 7.500.000</td>
+        </tr>
+    </table>
+    <div class="link-table">
+        <table>
+            <tr>
+                <th>Link Deskripsi</th>
+            </tr>
+            <tr>
+                <td><a href="#" target="_blank">Deskripsi Jasa Website & Aplikasi</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>3. Jasa Lolos Plagiarism</h2>
+    <table class="service-table">
+        <tr>
+            <th>Paket</th>
+            <th>Deskripsi</th>
+            <th>Estimasi Harga</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>Pemeriksaan plagiarism untuk dokumen pendek (hingga 5 halaman).</td>
+            <td>Rp 500.000</td>
+        </tr>
+        <tr>
+            <td>Standard</td>
+            <td>Pemeriksaan untuk dokumen menengah (hingga 15 halaman) dan revisi laporan.</td>
+            <td>Rp 1.000.000</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>Pemeriksaan untuk dokumen panjang (>15 halaman) dengan analisis mendalam dan perbaikan komprehensif.</td>
+            <td>Rp 1.500.000</td>
+        </tr>
+    </table>
+    <div class="link-table">
+        <table>
+            <tr>
+                <th>Link Deskripsi</th>
+            </tr>
+            <tr>
+                <td><a href="#" target="_blank">Deskripsi Jasa Lolos Plagiarism</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>4. Jasa Pembuatan Tugas Akhir</h2>
+    <table class="service-table">
+        <tr>
+            <th>Paket</th>
+            <th>Deskripsi</th>
+            <th>Estimasi Harga</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>Pembuatan tugas akhir dengan bantuan penulisan dan struktur dasar. Termasuk penelitian literatur.</td>
+            <td>Rp 2.500.000</td>
+        </tr>
+        <tr>
+            <td>Standard</td>
+            <td>Pembuatan tugas akhir dengan analisis data dan pembuatan prototype atau studi kasus.</td>
+            <td>Rp 5.000.000</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>Pembuatan tugas akhir dengan analisis mendalam, eksperimen, dan pembuatan prototype yang lengkap, serta panduan presentasi.</td>
+            <td>Rp 8.000.000</td>
+        </tr>
+    </table>
+    <div class="link-table">
+        <table>
+            <tr>
+                <th>Link Deskripsi</th>
+            </tr>
+            <tr>
+                <td><a href="#" target="_blank">Deskripsi Jasa Pembuatan Tugas Akhir</a></td>
+            </tr>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Jasa Pembuatan Proyek & Tugas Akhir</p>
+</footer>
+
+</body>
+</html>
